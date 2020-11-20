@@ -165,6 +165,7 @@ color: #22356F;
 .whyBlock_text {
     flex-basis: 915px;
     margin: 0;
+    text-align: center;
 }
 .whyBlock_text h2 {
 display: inline-block;
@@ -176,7 +177,6 @@ width: 223px;
 height: 51px;
 margin-top: 151px;
 margin-left: 178px;
-margin-bottom: 75px;
 }
 .whyBlock_text p {
 display: inline-block;
@@ -185,6 +185,7 @@ line-height: 35px;
 color: #FFFFFF;
 width: 555px;
 height: 235px;
+margin-top: 75px;
 margin-left: 178px;
 }
 .whyBlock_photo {

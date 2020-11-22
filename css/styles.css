@@ -11,7 +11,6 @@ body {
 }
 .header {
     flex-basis: 840px; 
-    font-size: 50px;
 }
 .header .left {
     background-color: #F4F9E2;
@@ -108,16 +107,18 @@ color: #22356F;
     width: 150px;
     height: 50px;
 }
-.header .left .buttons .btn1 a {
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 50px;
-    letter-spacing: 0.1em;
+.header .left .buttons a{
     text-transform: uppercase;
     text-decoration: none;
     text-align:center;
 	display: block;
 	height: 100%;
+}
+.header .left .buttons .btn1 a {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
 }
 .header .left .buttons .btn2 {
     width: 150px;
@@ -129,11 +130,6 @@ color: #22356F;
      font-size: 16px;
      line-height: 43px;
      letter-spacing: 0.1em;
-     text-transform: uppercase;
-     text-decoration: none;
-     text-align: center;
-	 display: block;
-	 height: 100%;
 }
 .header .left .right {
     position: relative;
@@ -190,9 +186,137 @@ margin-left: 178px;
 .whyBlock_photo {
     flex-basis: 525px;
     height: 607px;
+    margin-bottom: 0;
 }
 .whyBlock .whyBlock_photo .photo2 {
     margin-top: 0;
     width: 100%;
     height: 100%;
 }
+.about {
+    border: 2px solid rgb(17, 208, 233);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 960px;
+    background-color: #fff;
+}
+.about1 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 360px;
+}
+.about1 .about1_title {
+   flex-basis: 93px;
+   margin-left: 106px;
+    margin-right: 0;
+    margin-top: 156px;
+    height: 200px;
+}
+.about1 .about1_title span {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+}
+.about .about1 .about1_text {
+    flex-basis: 1347px;
+}
+.about1 .about1_text p {
+    display: inline-block;
+    width: 592px;
+    height: 210px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+    margin-left: 225px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.about2, .about4 {
+    flex-basis: 120px;
+}
+.about2 .help {
+width: 201px;
+height: 21px;
+margin-top: 70px;
+margin-left: 620px;
+margin-bottom: 0;    
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: rgba(34, 53, 111, 0.5);
+}
+.about3 {
+    display: flex;
+    flex-basis: 360px;
+}
+.about3 .square {
+    flex: 1 1 360px;
+}
+.about3 .little1 {
+    background-color: #FFE2DE;
+}
+.about3 .little2 {
+background-color:#C4E769;
+}
+.about3 .little3 {
+background-color: #62D0DF;
+}
+.about3 .little4 {
+background-color: #0052C1;
+}
+.about3 .square .square_text {
+width: 232px;
+height: 54px;
+margin-left: 78px;
+margin-top: 23px;
+font-size: 32px;
+line-height: 34px;
+letter-spacing: -0.006em;
+color: #FFFFFF;
+}
+.square .square_text span {
+    color: #E9B730; 
+}
+.about3 .square .border {
+    width: 255px;
+    height: 72px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 52.5px;
+    border-bottom: 2px solid #fff;
+}
+.bigSquares {
+    display: flex;
+    flex-basis: 960px;
+    flex-wrap: wrap;
+}
+.bigSquares .square {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 480px;
+    height: 480px;
+}
+.big1 {
+    background-color: #22356F;
+}
+.big2 {
+    background-color:#0052C1;
+}
+.big3 {
+    
+}
+.big4 {
+    background-color: #62D0DF;
+}
+.big5 {
+    background-color: #DEE1FF;
+}
+.big6 {
+    background-color:#8F00FF;
+}
+
+ 

@@ -9,6 +9,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+                                        /* I */
+
 .header {
     flex-basis: 840px; 
 }
@@ -153,6 +155,7 @@ color: #22356F;
     margin-left: -129.7%;
     margin-top: -250%;
 }
+                                      /* II */
 .whyBlock {
     display: flex;
     background-color: #62D0DF;
@@ -193,6 +196,7 @@ margin-left: 178px;
     width: 100%;
     height: 100%;
 }
+                                 /* III */
 .about {
     display: flex;
     flex-direction: column;
@@ -290,6 +294,7 @@ margin-top: 23px;
     margin-left: 52.5px;
     border-bottom: 2px solid #fff;
 }
+                                      /* IV */
 .bigSquares {
     display: flex;
     flex-basis: 960px;
@@ -337,4 +342,45 @@ margin-top: 23px;
     width: 206px;
     height: 72px;
 }
- 
+.void1 {
+    flex-basis: 22px; 
+}    
+                                  /* V */
+.about_programm {
+    flex-basis: 480px;
+    display: flex;
+    flex-wrap: wrap;
+            }
+.about_prog_item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 480px;
+    height: 240px;
+                }
+ .prog_title {
+     width: 234px;
+     height: 36px;
+     margin-top: 55px;
+     margin-left: 105px;
+     margin-bottom: 0;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    color: #22356F;
+             }
+ .prog_text {
+     width: 298px;
+     height: 84px;
+     margin-top: 28px;
+     margin-left: 105px;
+     margin-bottom: 0;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+            }
+.void1 {
+     flex-basis: 40px; 
+     }  
+                                     /* VI */  
+                                                                                       

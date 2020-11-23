@@ -155,6 +155,22 @@ color: #22356F;
     margin-left: -129.7%;
     margin-top: -250%;
 }
+.right button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin-top: 32px;
+    margin-left: 42px;
+    background-color: #62D0DF;
+    color: #fff;
+    text-align: center;
+    z-index: 101;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+}
                                       /* II */
 .whyBlock {
     display: flex;
@@ -383,4 +399,61 @@ margin-top: 23px;
      flex-basis: 40px; 
      }  
                                      /* VI */  
-                                                                                       
+ .about_help {
+     flex-basis: 800px;
+     display: flex;
+     background-color: #fff;
+ }
+.photo_block {
+    flex-basis: 480px;
+    margin: 0;
+    height: 800px;
+ }
+ .photo_block img {
+     height: 800px;
+ }
+ .text_block {
+     flex-basis: 960px;
+     margin: 0;
+ }
+ .help_title {
+    width: 217px;
+    height: 20px;
+    margin-top: 103px;
+    margin-left: 106px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+ }
+.help_text {
+    width: 676px;
+    height: 215px;
+    margin-top: 225px;
+    margin-left: 106px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #22356F;
+ }
+ .help_text span {
+     color:  #62D0DF;
+ }
+ .help_link {
+     display: inline-block;
+     width: 518px;
+     height: 43px;
+     margin-top: 152px;
+     margin-left: 106px;
+     text-decoration: none;
+     font-size: 16px;
+     line-height: 23px;
+     letter-spacing: 0.1em;
+     color: #FAB63E;
+ }
+                                    /* VII */
+
+                                    
+                                                                                                                          

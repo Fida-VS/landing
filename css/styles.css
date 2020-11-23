@@ -448,6 +448,7 @@ margin-top: 23px;
      margin-top: 152px;
      margin-left: 106px;
      text-decoration: none;
+     text-transform: uppercase;
      font-size: 16px;
      line-height: 23px;
      letter-spacing: 0.1em;
@@ -455,5 +456,54 @@ margin-top: 23px;
  }
                                     /* VII */
 
-                                    
+.offer {
+    flex-basis: 800px;
+    display: flex;
+    background-color: #22356F;
+}
+.contact_link {
+    display: inline-block;
+    width: 108px;
+    height: 14px;
+    margin-top: 103px;
+    margin-left: 180px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF; 
+}
+.offer_title {
+    width: 704px;
+    height: 66px;
+    margin-top: 230px;
+    margin-left: 180px;
+    margin-bottom: 0;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.offer_text {
+    width: 579px;
+    height: 227px;
+    margin-top: 75px;
+    margin-left: 180px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+}
+.offer .text_block .help_link {
+    color: #62D0DF;
+    margin-top: 0;
+    margin-left: 180px;
+    margin-bottom: 0;
+}
+                                 /* VIII */
+                                                                      
                                                                                                                           

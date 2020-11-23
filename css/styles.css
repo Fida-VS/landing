@@ -505,5 +505,103 @@ margin-top: 23px;
     margin-bottom: 0;
 }
                                  /* VIII */
+
+.footer {
+    flex-basis: 460px;
+    display: flex;
+    flex-direction: column;
+}                         
+.footer_info {
+   flex-basis: 380px; 
+   display: flex;
+   margin-bottom: 0;
+}
+.footer_photo {
+    flex-basis: 570px;
+}
+.footer_photo {
+    height: 380px;
+}
+.footer_info .info {
+    background-color: #fff;
+    flex-basis: 765px;
+    margin-top: 98px;
+    margin-left: 68px;
+    height: 208px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_info .info .info_item1 { 
+    flex: 1 1 240px;
+}
+.footer_info .info .info_item2 {
+    flex: 1 1 240px;
+}
+.footer_info .info .info_item3 {
+    flex: 1 1 240px;
+}
+ .info_title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    text-transform: uppercase;
+}
+.info_item1 .info_title {
+    width: 240px;
+    height: 48px;
+    margin: 0;
+}
+.info_item2 .info_title {
+    width: 240px;
+    height: 48px;
+    margin: 0;
+}
+.info_item3 .info_title {
+    width: 240px;
+    height: 48px;
+    margin: 0;
+}
+.footer_info .info .info_item1 .info_text {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.footer_info .info .info_item2 .adress {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.footer_info .info .info_item3 .schedule {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.adress a {
+    text-decoration: none;
+}
+.footer_copyright {
+    margin-top: 0;
+    flex-basis: 80px;
+    background-color: #62D0DF;
+}
+.copyright {
+    width: 351px;
+    height: 22px;
+    margin-top: 32px;
+    margin-left: 194px;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF; 
+}
+
                                                                       
                                                                                                                           
